@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+   color : hotpink;
+   border-bottom: 10px dotted purple; 
+}
+.container {
+    margin: auto;
+    max-width: 500px;
+}
+p,ul{
+    margin:  1em;
+}
+li{
+    margin-left: 40px;
+}

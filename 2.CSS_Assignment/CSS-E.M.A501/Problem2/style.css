@@ -1,0 +1,7 @@
+.cropped {
+    width: 300px;    
+    height: 200px;
+    overflow: hidden;
+    border: 5px solid black;
+    
+}

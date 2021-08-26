@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HungNT64</title>
+    <link rel="stylesheet" href="./style.css" />
+    
+  </head>
+  <body>
+    <div class="content">
+      <div class="header">
+        <h3 >Registration Form</h3>
+        <h4 id="info"></h4>
+      </div>
+      <div class="form">
+
+        <label for="fname">User name:</label><br>
+        <input type="text" id="username" name="fname" autocomplete="off"  >
+        <small id="username-text"> </small> 
+        <label for="pwd">Password:</label><br>
+        <input type="password" id="pwd"  name="pwd" autocomplete="off"   >
+        <small id="pwd-text"> </small> 
+        <label for="cfPwd">Confirm your password:</label><br>
+        <input type="password" id="cfPwd" name="cfPwd" autocomplete="off"    >
+        <small id="cfPwd-text"> </small> 
+        <button onclick="checkInput()">Register</button>
+      </div>
+  </div> 
+   
+    
+  
+    <script src="./main.js"></script>
+  </body>
+</html>

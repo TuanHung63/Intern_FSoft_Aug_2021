@@ -1,0 +1,33 @@
+a:link {
+    color: orange;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    text-decoration: none;
+  }
+  p:first-child {
+      font-size: 150%;;
+  }
+  p:first-child::first-line
+  {
+      color:red;
+  }
+  .container {
+      margin: auto;
+      max-width: 500px;
+  }
+.odd{
+      background-color: #000;
+      color:#fff;
+      
+  }
+ 
+  
+ 
+  

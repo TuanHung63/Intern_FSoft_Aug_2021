@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    box-sizing: border-box;
+    background-color: rgb(255, 249, 249);
+}
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+}
+.nav-left ul li {
+    float:left;
+}
+
+nav ul a li {
+    display: block;
+    color:#fff;
+    text-align: center;
+    padding: 8px 10px;
+}
+.header-text {
+    text-align: center;
+    margin: 20px 10px;
+}
+.header-text h1 {
+    margin:80px 0 30px 0 ;
+}
+.header-text p {
+    margin-bottom: 50px;
+}
+.header-text p span {
+    background-color: #000;
+    color:#fff;
+}
+.header-img img {
+    max-width: 100%;
+    height: auto;
+    
+}
+.header-img div {
+    position: absolute;
+    top: 50%;
+    left:0%;
+    margin-left: 60px;
+}
+.header-img div h1 {
+    color: #fff;
+    font-size: 60px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.header-img div button {
+    padding:15px 30px;
+    color:#000;
+    background-color: grey;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.header-img div button:hover {
+    background-color: #fff;
+}
+hr {
+    opacity: 0.5;
+}
+.container {
+    margin: 10px 5px;
+    display: grid;
+    grid-template-columns: 60% 35%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.title-heading {
+    margin: 8px 16px;
+    width: 90%;
+    
+}
+.title-heading img {
+    height: 100%;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+}
+.title-heading p {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.title-heading h3,.title-heading h5 {
+    margin: 10px 20px;
+    text-align: center;
+}
+.title-heading h5 span {
+    color:grey;
+}
+.like .replies-info {
+    float:left;
+}
+.replies {
+    float:right;
+    padding: 8px 16px;
+    background-color: #000;
+    color:#fff;
+    font-size: 16px;
+    
+}
+.replies:hover{
+    background-color: rgb(252, 246, 246);
+    color:rgb(8, 1, 1);
+
+}
+.like {
+    font-size: 16px;
+    padding: 8px 16px;
+    border: 1px solid #fff;   
+
+}
+.like:hover{
+    background-color: grey;
+}
+
+.replies-info .info ul {
+    display: flex;
+
+}
+.replies-info .info img {
+    width: 90px;
+    
+    margin: 8px 16px;
+}
+.replies-info .info .text-info {
+    text-align: left;
+    font-size: 18px;
+    margin-top: 30px;
+    
+}
+.replies-info .info {
+    margin: 8px 16px;
+}
+.replies-info .info .text-info h4 {
+    margin-bottom: 20px;
+}
+.replies-info .info .text-info h4 span {
+    color:grey;
+    font-size: 14px;
+}
+/* Card */
+.card {
+    width: 400px;
+    background-color: #000;
+    color: #fff;
+}
+.card img {
+    width: 400px;
+}
+/*Post*/
+ ul {
+    list-style-type: none;
+        
+}
+.post ul li{
+    display: flex;
+    flex-direction: row;
+    max-height: 100px;
+}
+.post ul li img {
+    max-height: 100px;
+    width: 100px;
+}
+.post ul li:hover {
+    background-color: grey;
+}
+.col-2-title {
+    background-color: #000;
+    color:white;
+    padding:16px 0;
+    
+
+}
+ .post p {
+    margin:8px;
+    color:#000;
+    font-size: 16px;
+}
+/*Advertise*/
+.ad {
+    margin: 8px 8px;
+    background-color: #f1f1f1;
+    height: 200px;
+}
+
+.ad p {
+    text-align: center;
+    position: relative;
+    top:50%;
+
+}
+/* Tags */
+.list-tags ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.list-tags ul li {
+    padding: 4px;
+    background-color: #f1f1f1;
+    color:#000;
+    margin: 8px 8px;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+.list-tags ul li:nth-child(1){
+    background-color: #000;
+    color:#fff;
+}
+/* inspiration*/
+.list-ins img {
+    width: 90%;
+    margin: 8px 8px;
+
+}
+.list-ins ul {
+    display: grid;
+    grid-template-columns: 200px 200px ;
+    margin-left: 20px;
+}
+/*Follow*/
+.follow li {
+    float: left;
+    margin: 8px 8px;
+    font-size: 24px;
+    color: black;
+}
+.follow ul {
+    margin-bottom: 30px;
+}
+/*Subscribe*/
+input[type=text]{
+    width: 90%;
+    min-height: 30px;
+    border-radius: 5px;
+    border:1px solid black;
+    margin-top: 10px;
+}
+.subscribe button {
+    min-height: 30px;
+    width: 90%;
+    font-size: 22px;
+    color: #fff;
+    background-color: #f44336;
+    border-radius: 5px;
+    border:1px solid #f44336;
+
+}
+.subscribe button:hover{
+    background-color: #f1f1f1;
+    color:#000;
+}
+.col-right {
+    margin-bottom: 20px;
+}
+.col-2-title h3 {
+    margin-left: 20px;
+}

@@ -1,0 +1,14 @@
+h1 {
+    color : blue;
+}
+span {
+    font-size: 200%;
+}
+.container {
+    margin: auto;
+    max-width: 500px;
+}
+h2 {
+    color:#fff;
+    background-color: blue;
+}

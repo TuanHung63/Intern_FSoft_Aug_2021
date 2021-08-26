@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+header, main {
+    margin: auto;
+    padding: auto;
+}
+header {
+    text-align: center;
+}
+main{
+    max-width: 500px;
+    
+}
+
+.form-control , option {
+    width: 100%;
+    padding:8px 6px;
+    margin: 8px 0;
+    
+}
+option:first {
+    color: #999;
+}
+.submit-button input {
+    background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+textarea,select,.submit-button input {
+    width: 500px;
+}

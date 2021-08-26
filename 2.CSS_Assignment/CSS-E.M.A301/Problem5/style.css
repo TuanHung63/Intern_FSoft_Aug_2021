@@ -1,0 +1,28 @@
+a[title]{
+    
+    border: 1px solid pink;
+}
+
+ul li {
+    list-style-type:none;
+    padding: 10px;
+    margin:2em;
+}
+[href^="contact"]{
+    border:1px solid orange;
+
+}
+body {
+    font-size: 16px;
+    box-sizing: border-box;
+
+}
+[href|="https"]{
+    border:1px solid green;
+}
+
+a {
+    display: block;
+    padding: 1.5em;
+    text-align: center;
+}

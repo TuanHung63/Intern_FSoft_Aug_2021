@@ -1,0 +1,17 @@
+#header {
+    background: url('./resources/images/bg.PNG') center/cover no-repeat;
+    padding: 8rem 0 8rem 0;
+}
+.button1 {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+    background-color: rgb(170, 13, 110);
+    cursor: pointer;
+    
+}
+#about {
+    padding: 2rem 0 2rem 0;
+}

@@ -1,0 +1,12 @@
+div {
+  width: 500px;
+  margin: auto;
+
+  height: 400px;
+
+  border: 2px solid #000000;
+
+  background: url(./star.png) center;
+  background-repeat: no-repeat;
+  background-position: 50% 20%;
+}
